@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         ),
         body: Column(
           children: [
-            Text('Question'),
+            Text(),
             RaisedButton(child: Text('Answer 1'), onPressed: answerQuestion),
             RaisedButton(child: Text('Answer 2'), onPressed: answerQuestion),
             RaisedButton(child: Text('Answer 3'), onPressed: answerQuestion),
